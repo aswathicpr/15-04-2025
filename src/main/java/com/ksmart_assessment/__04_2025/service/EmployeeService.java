@@ -3,7 +3,7 @@ package com.ksmart_assessment.__04_2025.service;
 import java.util.List;
 
 import org.modelmapper.ModelMapper;
-import org.springdoc.core.converters.models.Pageable;
+
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
@@ -14,7 +14,7 @@ import com.ksmart_assessment.__04_2025.exception.EmployeeIdNotFound;
 import com.ksmart_assessment.__04_2025.model.Employee;
 import com.ksmart_assessment.__04_2025.repository.EmployeeRepo;
 
-import jakarta.validation.Valid;
+
 import lombok.AllArgsConstructor;
 
 @Service
